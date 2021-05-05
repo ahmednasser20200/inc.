@@ -1,0 +1,54 @@
+/* start media Query */
+/*  smart phone and tablets */
+@media (max-width: 767px)
+{
+    .navbar-inverse .navbar-nav > li > a
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe .form-control
+    {
+        margin: 20px auto;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+    .testimonials .carousel-indicators li
+    {
+        width: 65px;
+    }
+    .features h1
+    {
+        font-weight: bold;
+    }
+    .our-clients ul li img
+    {
+        height: 90px;
+        margin-bottom: 0;
+    }
+}
+/*  small screens */
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+/* medium screens */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+/* large screens */
+@media (min-width: 1200px)
+{
+    
+}
+
+
+
+
+
+
+/* end media Query */

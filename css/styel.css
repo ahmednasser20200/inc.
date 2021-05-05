@@ -1,0 +1,527 @@
+
+body
+{
+    padding-top: 70px;
+}
+
+/* Start Overriding Bootstrp */
+
+
+
+/* main navbar */
+.navbar
+{
+min-height: 70px;
+}
+
+/* Activen link */
+
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus
+  {
+      background-color: #E41b17;
+  }
+  /* Navbar link */
+  .navbar-inverse .navbar-nav > li > a
+  {
+      color: BBB;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      font-size: 16px;
+  }
+  /* Brand name */
+  .navbar-inverse .navbar-brand
+  {
+      color: BBB;
+      font-size: 30px;
+      line-height: 40px;
+  }
+  .navbar-inverse .navbar-brand span
+  {
+      color: #E41b17;
+  }
+  /* Dropdown Menu */
+  .dropdown-menu
+  {
+      background-color: #333;
+      border-top: 3px solid #E41b17;
+      min-width: 200px;
+  }
+  .dropdown-menu > li > a
+  {
+      color: #fff;
+      padding: 6px 20px;
+      -webkit-transition:padding 0.5s ease ;
+      -moz-transition:padding 0.5s ease ;
+      -o-transition:padding 0.5s ease ;
+      transition:padding 0.5s ease ;
+  }
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus
+   {
+    background-color: #E41b17;
+    color: #fff;
+    padding-left: 25px;
+  }
+  .navbar-right .dropdown-menu
+  {
+      left: 0;
+      right: auto;
+  }
+  .dropdown-menu .divider
+  {
+      background-color: #871818;
+  }
+  /* Navbar Toggle */
+  .navbar-toggle
+  {
+      margin-top: 18px;
+  }
+
+  /* CAROUSEL */
+  .carousel-caption
+  {
+      bottom: 60px;
+      background: rgba(3,3,3,0.3);
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  .carousel-indicators li 
+  {
+      height: 15px;
+      width: 15px;
+      border: 1px solid #eee;
+  }
+  .carousel-indicators 
+  {
+      bottom: 0;
+  }
+  .carousel-indicators .active
+  {
+      height: 17px;
+      width: 17px;
+      background-color: #E41b17;
+  }
+
+  /* End Overriding Bootstrp */
+  
+  /* Start Section ABout */
+.about
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1 
+{
+    font-weight: bold;
+}
+.about h1 span
+{
+    color: #E41b17;
+}
+.about h3 span
+{
+    color: #E41b17;
+}
+  /* End Section ABout */
+ /* Start Section Features */
+.features
+{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features .feat p 
+{
+    line-height: 2em;
+}
+.features .feat
+{
+    margin-bottom: 30px;
+}
+.features h1
+{
+    margin-bottom: 50px;
+}
+.features .feat span .glyphicon
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #666;
+}
+ /* Ed Section Features */
+/* Start Testimonials Section  */
+.testimonials
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials .lead
+{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+.testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E41b17;
+}
+
+.testimonials .carousel-inner
+{
+    min-height: 160px;
+}
+.testimonials .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition:all 0.5s ease ;
+    -moz-transition:all 0.5s ease ;
+    -o-transition:all 0.5s ease ;
+    transition:all 0.5s ease ;
+}
+.testimonials .carousel-indicators li.active
+{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+    border: 3px solid #E41b17;
+}
+
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+}
+/* End Testimonials Section  */
+/* start section price table */
+.price-table
+{
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price-table h1
+{
+    margin-bottom: 40px;
+}
+.price-table .price-box
+{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.price-table .price-box h2
+{
+    margin: 5px 0 15px;
+}
+.price-table .price-box:hover p
+{
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #dfdfdf;
+
+}
+.price-table .price-box p
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    line-height: 100px;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.price-table .price-box ul
+{
+    line-height: 250%;
+    font-size: 18px;
+
+}
+.price-table .price-box a
+{
+    margin-bottom: 5px;
+}
+/* end section price table */
+/* <!-- start section Our Team --> */
+.our-team
+{
+    background: url(../imeges/خلفيات-تفاحة-ابل-2.jpg) no-repeat center center fixed;
+    min-height: 600px;
+    background-size: cover;
+}
+.our-team .team
+{
+background-color: rgba(2, 2, 2, 0.8);
+color: #fff;
+min-height: 600px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.our-team h1
+{
+    margin-bottom: 60px;
+}
+.our-team .perso
+{
+    margin-bottom: 40px;
+}
+/* <!-- end section Our Team --> */
+/* <!-- start section subscribe --> */
+.subscribe
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #eee;
+}
+.subscribe h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p 
+{
+    margin-bottom: 30px;
+}
+.subscribe .form-control
+{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+.subscribe .btn-danger
+{
+    border-radius: 0;
+}
+/* <!-- end section subscribe --> */
+/* <!-- start section stats --> */
+.statistics
+{
+    background:url(../imeges/خلفيات-تفاحة-ابل-5.jpg) no-repeat center center fixed;
+    background-size: cover;
+min-height: 300px;
+}
+.statistics .data
+{
+    background-color: rgba(2, 2, 2, 0.8);
+color: #b6b5b5;
+min-height: 300px;
+padding-top: 40px;
+padding-bottom: 70px;
+}
+.statistics h1
+{
+    margin-bottom: 60px;
+}
+.statistics .stats
+{
+    margin-bottom: 30px;
+    -webkit-transition-all: 0.5s ease-in-out;
+    -moz-transition-all: 0.5s ease-in-out;
+    -o-transition-all: 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.statistics .stats:hover
+{
+color: #fff;
+}
+.statistics p
+{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.statistics span
+{
+    font-size: 18px;
+}
+/* <!-- end section stats --> */
+/* <!-- start section Our skills --> */
+.our-skills
+{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.our-skills h1
+{
+    margin-bottom: 60px;
+}
+.our-skills h3
+{
+    font-weight: bold;
+    margin-top: 0%;
+}
+.our-skills .progress
+{
+    height: 36px;
+}
+.our-skills .progress-bar
+{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+/* <!-- end section Our skills --> */
+/* <!-- start section Contact Us --> */
+.contact-us
+{
+    background:url(../imeges/خلفيات-تفاحة-ابل-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 300px; 
+}
+.contact-us .fields
+{
+    background:rgba(9, 9, 9, 0.8) ;
+    min-height: 300px;
+    color: #ddd;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-us p
+{
+    margin-bottom: 40px;
+}
+.contact-us textarea
+{
+    height: 108px;
+}
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background: rgba(82, 78, 78, 0.7);
+    color:#fff;
+    border: none;
+}
+/* <!-- end section Contact Us --> */
+/* <!-- start section Our Clients --> */
+.ur-clients
+{
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.our-clients ul li img
+{
+    opacity: 0.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.our-clients ul li img:hover
+{
+opacity: 1;
+-webkit-transition-all: 0.4s ease-in-out;
+-moz-transition-all: 0.4s ease-in-out;
+-o-transition-all: 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+/* <!-- end section Our Clients --> */
+/* <!-- start Ultimate Footer section  --> */
+.footer
+{
+    background: #111;
+    color: #aaa;
+    padding-top: 10px;
+    
+}
+.footer a {color: #aaa;}
+.footer a:hover {color: #fff;}
+
+.footer h3
+{
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ .footer .three-columns
+{
+  overflow: hidden;
+}
+.footer .three-columns li
+{
+  width: 33.3333%;
+  float: left;
+  padding: 10px 0;
+}
+.footer .social-list
+{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.footer .social-list li
+{
+    float: left;
+    margin-right: 4px;
+    opacity: 0.7;
+  
+}
+.footer .social-list li:hover
+{
+    opacity: 1;
+    -webkit-transition-all: 0.4s ease-in-out;
+    -moz-transition-all: 0.4s ease-in-out;
+    -o-transition-all: 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+}
+.footer .img-thumbnail
+{
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+.footer .copyright
+{
+    background-color: #333;
+    color: #aaa;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.footer .copyright span
+{
+    color: #0895d1;
+}
+/* <!-- end Ultimate Footer section  --> */
+
